@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="My portfolio" />
+    <title>Portfolio | Dmitriy Dudnik</title>
+    <link rel="icon" href="./images/favicon/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav>
+        <div class="container">
+          <div id="navigation">
+            <button id="btnMobile">
+              <span id="hamburger"></span>
+            </button>
+            <ul class="menu">
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li>
+                <div class="nav__cv">
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="linkBtn"
+                  >
+                    Cv
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="nav__cv">
+            <a
+              href="#"
+              target="_blank"
+              class="linkBtn"
+            >
+              Cv
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="banner">
+        <div class="container">
+          <h1>Welcome to my <br />portfolio</h1>
+          <p>
+            If you are looking for a front-end developer, you have come to the
+            right place.
+          </p>
+          <a href="#about" class="mainBtn">About me</a>
+        </div>
+      </div>
+
+      <div class="mouse-animation" id="mouse">
+        <a href="#about"><span class="dot"></span></a>
+      </div>
+    </header>
+
+    <!-- SOCIAL -->
+    <div class="social media">
+      <div class="container">
+        <ul>
+          <li>
+            <a href="https://github.com/DudnikDmitriy" target="_blank">
+              <svg
+                width="20"
+                height="20"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.25 22.5v-3.865a3.361 3.361 0 0 0-.94-2.607c3.14-.35 6.44-1.538 6.44-6.99a5.43 5.43 0 0 0-1.5-3.746 5.058 5.058 0 0 0-.09-3.765s-1.18-.35-3.91 1.478a13.397 13.397 0 0 0-7 0C6.52 1.177 5.34 1.527 5.34 1.527a5.058 5.058 0 0 0-.09 3.765 5.43 5.43 0 0 0-1.5 3.775c0 5.413 3.3 6.602 6.44 6.991a3.366 3.366 0 0 0-.94 2.577V22.5"
+                ></path>
+                <path d="M9.25 19.503c-5 1.498-5-2.496-7-2.996"></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://gitlab.com/Dmitrijdudnik"
+              target="_blank"
+            >
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                width="20" 
+                height="20" 
+                viewBox="0 0 24 24" 
+                fill="none" 
+                stroke="currentColor" 
+                stroke-width="2" 
+                stroke-linecap="round" 
+                stroke-linejoin="round" 
+                class="feather feather-gitlab"
+                >
+                <path 
+                  d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z"
+                ></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/dmitrij-dudnik-82a750174"
+              target="_blank"
+            >
+              <svg
+                width="20"
+                height="20"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                ></path>
+                <path d="M2 9h4v12H2z"></path>
+                <path d="M4 2a2 2 0 1 0 0 4 2 2 0 1 0 0-4z"></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:dimadhonor7a@gmail.com">
+              <svg
+                width="20"
+                height="20"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                ></path>
+                <path d="m22 6-10 7L2 6"></path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container">
+        <div class="about__box">
+          <div class="about__img">
+            <img src="./images/profile.jpg" alt="profile image" />
+            <div class="border__top"></div>
+            <div class="border__bottom"></div>
+          </div>
+          <div class="about__txt">
+            <h2>About Me</h2>
+            <p>
+              I am Dmitriy Dudnik, hailing from Ukraine. 
+              I delved into the world of programming in late 2018, 
+              and my fascination with it grows stronger every day.
+            </p>
+            <p>
+              I am constantly studying and immersing myself in Front End technologies, 
+              with a keen focus on delivering outstanding user experiences.
+            </p>
+            <p>
+              For more detailed information about me, you can refer to my 
+              <a
+                href="./images/project-01.png"
+                target="_blank"
+                class="underline"
+              >
+                resume
+              </a>
+              .
+            </p>
+            <div class="about__txt__skills">
+              <h3 translate="no">Skills</h3>
+
+              <div class="skills__content">
+                <ul>
+                  <li>
+                    <svg
+                      width="20"
+                      height="20"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="m9 18 6-6-6-6"></path>
+                    </svg>
+                    <p>Html</p>
+                  </li>
+                  <li>
+                    <svg
+                      width="20"
+                      height="20"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="m9 18 6-6-6-6"></path>
+                    </svg>
+                    <p>Css</p>
+                  </li>
+                  <li>
+                    <svg
+                      width="20"
+                      height="20"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="m9 18 6-6-6-6"></path>
+                    </svg>
+                    <p>Tailwindcss</p>
+                  </li>
+                  <li>
+                    <svg
+                      width="20"
+                      height="20"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="m9 18 6-6-6-6"></path>
+                    </svg>
+                    <p>JavaScript</p>
+                  </li>
+                  <li>
+                    <svg
+                      width="20"
+                      height="20"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="m9 18 6-6-6-6"></path>
+                    </svg>
+                    <p>Bootstrap</p>
+                  </li>
+                  <li>
+                    <svg
+                      width="20"
+                      height="20"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="m9 18 6-6-6-6"></path>
+                    </svg>
+                    <p>React</p>
+                  </li>
+                  <li>
+                    <svg
+                      width="20"
+                      height="20"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="m9 18 6-6-6-6"></path>
+                    </svg>
+                    <p>Git & GitHub</p>
+                  </li>
+                  <li>
+                    <svg
+                      width="20"
+                      height="20"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="m9 18 6-6-6-6"></path>
+                    </svg>
+                    <p>SCSS/Sass</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="container">
+        <div class="section__title">
+          <h2>Projects</h2>
+        </div>
+
+        <p>
+          See some of my projects below <br />
+          or access my
+          <a
+            href="https://github.com/DudnikDmitriy"
+            target="_blank"
+            class="underline"
+            >GitHub</a
+          >.
+        </p>
+
+        <div class="project__box">
+          <div class="project__single clone">
+            <div class="project__image">
+              <img src="./images/project-01.png" alt="project image" />
+            </div>
+            <div class="project__header">
+              <div>
+                <h3>Store</h3>
+              </div>
+              <div>
+                <a
+                  href="https://github.com/DudnikDmitriy/store-react"
+                  target="_blank"
+                  title="Repository"
+                >
+                  <svg
+                    width="22"
+                    height="22"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M16.25 22.5v-3.865a3.361 3.361 0 0 0-.94-2.607c3.14-.35 6.44-1.538 6.44-6.99a5.43 5.43 0 0 0-1.5-3.746 5.058 5.058 0 0 0-.09-3.765s-1.18-.35-3.91 1.478a13.397 13.397 0 0 0-7 0C6.52 1.177 5.34 1.527 5.34 1.527a5.058 5.058 0 0 0-.09 3.765 5.43 5.43 0 0 0-1.5 3.775c0 5.413 3.3 6.602 6.44 6.991a3.366 3.366 0 0 0-.94 2.577V22.5"
+                    ></path>
+                    <path d="M9.25 19.503c-5 1.498-5-2.496-7-2.996"></path>
+                  </svg>
+                </a>
+                <a
+                  href="https://dudnikdmitriy.github.io/store-react/"
+                  target="_blank"
+                  title="Live demo"
+                >
+                  <svg
+                    width="22"
+                    height="22"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
+                    ></path>
+                    <path d="M12 9a3 3 0 1 0 0 6 3 3 0 1 0 0-6z"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="project__description">
+              <span>
+                Features:<br />
+                React, Redux, Redux Toolkit
+              </span>
+            </div>
+          </div>
+
+          <div class="project__single clone">
+            <div class="project__image">
+              <img src="./images/project-02.png" alt="project image" />
+            </div>
+            <div class="project__header">
+              <div>
+                <h3>Todo List</h3>
+              </div>
+              <div>
+                <a
+                  href="https://github.com/DudnikDmitriy/to-do-list-react"
+                  target="_blank"
+                  title="Repository"
+                >
+                  <svg
+                    width="22"
+                    height="22"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M16.25 22.5v-3.865a3.361 3.361 0 0 0-.94-2.607c3.14-.35 6.44-1.538 6.44-6.99a5.43 5.43 0 0 0-1.5-3.746 5.058 5.058 0 0 0-.09-3.765s-1.18-.35-3.91 1.478a13.397 13.397 0 0 0-7 0C6.52 1.177 5.34 1.527 5.34 1.527a5.058 5.058 0 0 0-.09 3.765 5.43 5.43 0 0 0-1.5 3.775c0 5.413 3.3 6.602 6.44 6.991a3.366 3.366 0 0 0-.94 2.577V22.5"
+                    ></path>
+                    <path d="M9.25 19.503c-5 1.498-5-2.496-7-2.996"></path>
+                  </svg>
+                </a>
+                <a
+                  href="https://dudnikdmitriy.github.io/to-do-list-react/"
+                  target="_blank"
+                
+                >
+                  <svg
+                    width="22"
+                    height="22"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
+                    ></path>
+                    <path d="M12 9a3 3 0 1 0 0 6 3 3 0 1 0 0-6z"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="project__description">
+              <span>
+                Features:<br />
+                React, TypeScript, Tailwind
+              </span>
+            </div>
+          </div>
+
+          <div class="project__single logical">
+            <div class="project__image">
+              <img src="./images/project-03.png" alt="project image" />
+            </div>
+            <div class="project__header">
+              <div>
+                <h3>Weather App</h3>
+              </div>
+              <div>
+                <a
+                  href="https://github.com/DudnikDmitriy/weather-app"
+                  target="_blank"
+                  title="Repository"
+                >
+                  <svg
+                    width="22"
+                    height="22"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M16.25 22.5v-3.865a3.361 3.361 0 0 0-.94-2.607c3.14-.35 6.44-1.538 6.44-6.99a5.43 5.43 0 0 0-1.5-3.746 5.058 5.058 0 0 0-.09-3.765s-1.18-.35-3.91 1.478a13.397 13.397 0 0 0-7 0C6.52 1.177 5.34 1.527 5.34 1.527a5.058 5.058 0 0 0-.09 3.765 5.43 5.43 0 0 0-1.5 3.775c0 5.413 3.3 6.602 6.44 6.991a3.366 3.366 0 0 0-.94 2.577V22.5"
+                    ></path>
+                    <path d="M9.25 19.503c-5 1.498-5-2.496-7-2.996"></path>
+                  </svg>
+                </a>
+                <a
+                  href="https://dudnikdmitriy.github.io/weather-app/"
+                  target="_blank"
+                >
+                  <svg
+                    width="22"
+                    height="22"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
+                    ></path>
+                    <path d="M12 9a3 3 0 1 0 0 6 3 3 0 1 0 0-6z"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="project__description">
+              <span>
+                Features:<br />
+                Html, Css, and JavaScript
+              </span>
+            </div>
+          </div>
+
+          <div class="project__single logical">
+            <div class="project__image">
+              <img src="./images/project-04.png" alt="project image" />
+            </div>
+            <div class="project__header">
+              <div>
+                <h3>Dashboard</h3>
+              </div>
+              <div>
+                <a
+                  href="https://github.com/DudnikDmitriy/dashboard"
+                  target="_blank"
+                  title="Repository"
+                >
+                  <svg
+                    width="22"
+                    height="22"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M16.25 22.5v-3.865a3.361 3.361 0 0 0-.94-2.607c3.14-.35 6.44-1.538 6.44-6.99a5.43 5.43 0 0 0-1.5-3.746 5.058 5.058 0 0 0-.09-3.765s-1.18-.35-3.91 1.478a13.397 13.397 0 0 0-7 0C6.52 1.177 5.34 1.527 5.34 1.527a5.058 5.058 0 0 0-.09 3.765 5.43 5.43 0 0 0-1.5 3.775c0 5.413 3.3 6.602 6.44 6.991a3.366 3.366 0 0 0-.94 2.577V22.5"
+                    ></path>
+                    <path d="M9.25 19.503c-5 1.498-5-2.496-7-2.996"></path>
+                  </svg>
+                </a>
+                <a
+                  href="https://dudnikdmitriy.github.io/dashboard/"
+                  target="_blank"
+                  title="Live demo"
+                >
+                  <svg
+                    width="22"
+                    height="22"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
+                    ></path>
+                    <path d="M12 9a3 3 0 1 0 0 6 3 3 0 1 0 0-6z"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="project__description">
+              <span>
+                Features:<br />
+                HTML, CSS 
+              </span>
+            </div>
+          </div>
+
+          <div class="project__single logical">
+            <div class="project__image">
+              <img src="./images/project-05.png" alt="project image" />
+            </div>
+            <div class="project__header">
+              <div>
+                <h3>Sup Board</h3>
+              </div>
+              <div>
+                <a
+                  href="https://gitlab.com/Dmitrijdudnik/sup_board"
+                  target="_blank"
+                  title="Repository"
+                >
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  width="20" 
+                  height="20" 
+                  viewBox="0 0 24 24" 
+                  fill="none" 
+                  stroke="currentColor" 
+                  stroke-width="2" 
+                  stroke-linecap="round" 
+                  stroke-linejoin="round" 
+                  class="feather feather-gitlab"
+                >
+                  <path 
+                    d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z"
+                  ></path>
+                </svg>
+              </a>
+                </a>
+                
+              </div>
+            </div>
+            <div class="project__description">
+              <span>
+                Features:<br />
+                HTML, CSS 
+              </span>
+            </div>
+          </div>
+
+          <div class="project__single logical">
+            <div class="project__image">
+              <img src="./images/project-06.png" alt="project image" />
+            </div>
+            <div class="project__header">
+              <div>
+                <h3>Cesis</h3>
+              </div>
+              <div>
+                <a
+                  href="https://gitlab.com/Dmitrijdudnik/cesis"
+                  target="_blank"
+                  title="Repository"
+                >
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  width="20" 
+                  height="20" 
+                  viewBox="0 0 24 24" 
+                  fill="none" 
+                  stroke="currentColor" 
+                  stroke-width="2" 
+                  stroke-linecap="round" 
+                  stroke-linejoin="round" 
+                  class="feather feather-gitlab"
+                >
+                <path 
+                  d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z"
+                ></path>
+              </svg>
+                </a>
+                
+              </div>
+            </div>
+            <div class="project__description">
+              <span>
+                Features:<br />
+                HTML, CSS
+              </span>
+            </div>
+          </div>
+
+          <div class="project__single logical">
+            <div class="project__image">
+              <img src="./images/project-07.png" alt="project image" />
+            </div>
+            <div class="project__header">
+              <div>
+                <h3>Rhythm</h3>
+              </div>
+              <div>
+                <a
+                  href="https://gitlab.com/Dmitrijdudnik/ritm"
+                  target="_blank"
+                  title="Repository"
+                >
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  width="20" 
+                  height="20" 
+                  viewBox="0 0 24 24" 
+                  fill="none" 
+                  stroke="currentColor" 
+                  stroke-width="2" 
+                  stroke-linecap="round" 
+                  stroke-linejoin="round" 
+                  class="feather feather-gitlab"
+                >
+                <path 
+                  d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z"
+                ></path>
+              </svg>
+                </a>
+                
+              </div>
+            </div>
+            <div class="project__description">
+              <span>
+                Features:<br />
+                Html, Css, and JavaScript
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container">
+        <div class="section__title">
+          <h2>
+            Got a project in mind?<br />
+            Tell me about it.
+          </h2>
+        </div>
+
+        <div class="contact__box">
+          <a
+            href="https://www.linkedin.com/in/dmitrij-dudnik-82a750174/"
+            target="_blank"
+            class="mainBtn"
+          >
+            <svg
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+              ></path>
+              <path d="M2 9h4v12H2z"></path>
+              <path d="M4 2a2 2 0 1 0 0 4 2 2 0 1 0 0-4z"></path>
+            </svg>
+            LinkedIn
+          </a>
+          <a href="mailto:dimadhonor7a@gmail.com" class="mainBtn">
+            <svg
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+              ></path>
+              <path d="m22 6-10 7L2 6"></path>
+            </svg>
+            Email
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <p>Developed by Dmitriy Dudnik</p>
+      </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="./js/particlesJS/particles.js"></script>
+    <script src="./js/particlesJS/app.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
